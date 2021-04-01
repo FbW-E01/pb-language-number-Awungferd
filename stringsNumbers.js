@@ -2,6 +2,8 @@
 let greetings = "Hi, we are going to number ";
 let streetNumber = 105;
 console.log(greetings.concat(streetNumber));
+
+// OR,
 console.log(greetings + streetNumber);
 
 //Here concatenation is going on. That is, JS takes the value of the string and combines it with the value of the number to produce a new result.
